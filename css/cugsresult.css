@@ -1,0 +1,183 @@
+body {
+    float: left;
+    background-color: #0e0f37;
+    text-align: center;
+}
+
+  
+.title {
+    font-size: 70px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.line {
+    border-top: 1px solid #ffffff;
+    margin: 30px auto;
+    width: 75%;
+    text-align: center;
+}
+
+.main{
+    text-align: center;
+}
+.btnhome {
+    text-align: left;
+    float: left;
+}
+.btnhome > .btn_home {
+
+    border-radius: 40px;
+    width: 80px;
+    height: 80px;
+    background-color: #eee; /*배경색*/
+
+    cursor: pointer;
+    outline: none;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25); 
+    transition: background-color 0.3s ease;
+    /*글자 구성*/
+    font-weight: bolder;
+    font-size: 20px;
+    color: black;
+}
+.btn_home:hover {
+    background-color: #FFB6C1;
+}
+
+
+.btnbackspace{
+    text-align:left;
+}
+.btnbackspace > .btn_backspace {
+    border-radius: 40px;
+    width: 80px;
+    height: 80px;
+    background-color: #eee; /*배경색*/
+
+    cursor: pointer;
+    outline: none;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25); 
+    transition: background-color 0.3s ease;
+
+    /*글자 구성*/
+    font-weight: bolder;
+    font-size: 20px;
+    color: black;
+}
+.btn_backspace:hover {
+    background-color: #FFB6C1;
+}
+
+.square {
+    background-color: #666;
+    width: 900px;
+    height: 500px;
+    margin: 0 auto;
+    border-radius: 15px;
+}
+
+.user-wrap img {
+    width: 10%;
+    vertical-align: middle;
+}
+
+.user-wrap {
+    width: 100%;
+    margin: 10px auto;
+    position: relative;
+}
+  
+.remona-text1 {
+    width: 100%;
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    color: #ffffff;
+}
+
+.remona-text2 {
+    
+    width: 100%;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    color: #ffffff;
+}
+
+.main_tit3{   
+    display: inline;
+    color: #fff;
+}
+
+
+element.style {
+    display: block;
+}
+.hover {
+    
+}
+.menu_list .hover, .menu_slider .hover {
+    width: 100%;
+    height: 100%;
+    padding: 30px 22px 9px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    text-align: center;
+    color: #fff;
+}
+
+.font-bl{
+    text-align: center;
+    color: #fff;
+}
+.txt {
+    text-align: center;
+    color: #fff;
+}
+
+.ingredient_table_box {
+    text-align: center;
+    color: #fff;
+}
+.msg {
+    text-align: center;
+    color: #fff;
+}
+
+
+body * {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+div {
+    display: block;
+}
+.menu_wrap .menu_slider .swiper-slide {
+    text-align: center;
+    position: relative;
+}
+body {
+    line-height: 2;
+    position: relative;
+}
+html, body {
+    font-family: 'Montserrat','Noto Sans KR',AppleGothic,sans-serif;
+    font-size: 100%;
+    color: black;
+}
+html {
+    line-height: 1.15;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+  
+
+
+.container > .item {
+    color: #ffffff;  
+}  
